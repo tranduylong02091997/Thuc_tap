@@ -1,0 +1,99 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+
+}
+
+header{
+    margin: 10px;
+}
+header .Them_TV {
+    float: right;
+    height: 34px;
+    width: 88px;
+    background: #3de814;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px;
+    border-radius: 6px;
+}
+
+.Body_Index{
+    margin: 10px;
+
+}
+.Body_Index .Phandau a{
+    float: right;
+    height: 46px;
+    background: #5bc0de;
+    width: 74px;
+    text-align: center;
+    padding: 10px;
+    color: ghostwhite;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 192px;
+    box-shadow: inset 2px 1px 10px 0px;
+}
+.Body_Index .Than .Hien_cac_form .Tim_Kiem .Btn_TimKiem {
+    background-color: hsl(122, 42%, 27%);
+    color: wheat;
+    width: 90px;
+    height: 37px;
+    box-shadow: 0px -1px 0px 0px;
+}
+ .Body_Index .Than .Hien_cac_form .Tim_Kiem {
+    text-align: center;
+     width: 900px;
+     margin-top: 30px;
+     margin-left: 16%;
+ }
+ .Danh_Sach table {
+        margin: 0 auto;
+     margin-bottom: 0px;
+     argin-left: 22%;
+     width: 926px;
+     border: 1px solid;
+ }
+    .Phan_Trang{
+    margin-left: 216px;
+        margin-bottom: 60px;
+
+}
+    .Phan_Trang a{
+        text-decoration: none ;
+    }
+.Them h3 {
+    background: green;
+    color: wheat;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+input {
+    width: 160px;
+}
+.Them {
+    margin-bottom: 58px;
+        border: 1px solid ;
+       margin: 54px 40%;
+       width: 400px;
+}
+.Them .Dang_ki {
+    width: 300px;
+    height: 230px;
+}
+.Them .Dang_ki table{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.Them .Dang_ki .But_ton {
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.Them .Dang_ki .button .Lam_Moi {
+    margin-left: 10px;
+}
+.Danh_Sach {
+    margin-top: 20%;
+}

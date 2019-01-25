@@ -1,0 +1,414 @@
+html,
+body {
+    width: 100%;
+    height: 1374px;
+}
+
+body {
+    width: 100%;
+    font-family: OpenSans;
+    font-size: 14px;
+    position: relative;
+}
+
+.chuatoanbonoidung {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 0 0 #bababa;
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.width-80 {
+    width: 80% !important;
+}
+
+.header .header-logo {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.header .header-logo img {
+    padding: 10px 0;
+    height: 30px;
+}
+
+.header .header-support {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.header .header-support>span {
+    font-family: OpenSans;
+    font-style: normal;
+    font-stretch: normal;
+    color: #4a4a4a;
+}
+
+.content {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style: none
+}
+
+.content .contentright {
+    text-align: left;
+    float: right;
+    border-radius: 8px 8px 8px 8px;
+    width: 39%;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: 350px;
+    background-color: #f1f1f1;
+    float: right;
+}
+
+.content .contentright .dangnhap {
+    margin-top: 10px;
+    height: 38px;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #55595c;
+    text-align: center;
+}
+
+.content .contentright .has-eurro {
+    color: red;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content .contentright .text-username {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+}
+
+.content .contentright .text-username .Icon-username {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #ffffff;
+    border: solid 1px #9b9b9b;
+    border-right: none;
+    font-family: "OpenSans";
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.content .contentright .icon-input {
+    margin-top: 9px;
+    margin-left: 0px;
+}
+
+.content .contentright .text-username .username {
+    margin-top: 20px;
+    width: 100%;
+    height: 34px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #ffffff;
+    border: solid 1px #9b9b9b;
+    font-family: "OpenSans";
+    box-sizing: border-box;
+    padding-right: 10px;
+    position: absolute;
+    left: 0px;
+    padding-left: 40px;
+}
+
+.content .contentright .text-password {
+    margin-top: 4px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+}
+
+.content .contentright .text-password .icon-password {
+    margin-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 34px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #ffffff;
+    border: solid 1px #9b9b9b;
+    border-right: none;
+    font-family: "OpenSans";
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.content .contentright .icon-input {
+    margin-top: 9px;
+    margin-left: 0px;
+}
+
+.content .contentright .text-password .password {
+    margin-top: 12px;
+    width: 100%;
+    height: 34px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #ffffff;
+    border: solid 1px #9b9b9b;
+    font-family: "OpenSans";
+    padding-right: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 40px;
+    left: 0px;
+}
+
+.content .contentright .text-password .peek-password {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+}
+
+.content .contentright .text-center .ghinho {
+    padding-left: 10%;
+    display: inline-flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+body,
+html,
+p,
+blockquote,
+fieldset,
+input,
+iframe,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: default;
+}
+
+.content .contentright .loginbtn {
+    margin-top: 20px;
+    width: 80%;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #229541;
+    border: none;
+    color: ghostwhite;
+    font-size: 26px;
+}
+
+.content .contentright .loginbtn .text-btn-dangnhap {
+    margin-top: 14px;
+    width: 96px;
+    height: 22px;
+    font-family: OpenSans-Semibold;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: ghostwhite;
+}
+
+.content .contentright .dangkitbtn {
+    margin-top: 20px;
+    width: 80%;
+    height: 42px;
+    border-radius: 8px;
+    background-color: brown;
+    border: none;
+    color: ghostwhite;
+    font-size: 26px;
+    margin-left: 10%;
+}
+
+.content .contentright .dangkitbtn .text-btn-dangki {
+    margin-top: 14px;
+    width: 96px;
+    height: 22px;
+    font-family: OpenSans-Semibold;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* .content.contenleft {
+    width: 60%;
+    text-align: left;
+    display: inline-block;
+}
+
+.content .contenleft .description-title {
+    margin-top: 15px;
+    border: 1px;
+    width: 100%;
+}
+
+.content .contenleft .description-title {
+    font-family: OpenSans-Semibold;
+    font-size: 36px;
+    font-style: normal;
+    font-stretch: normal;
+    color: #0a9d57;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content .contentright .dang_ki {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/*.content .contentright .dang_ki #hoten{*/
+
+
+/*height: 18px;*/
+
+
+/*margin-left: 6px;*/
+
+
+/*border: 0.5px solid;*/
+
+
+/*}.content .contentright .dang_ki #namsinh{*/
+
+
+/*margin-left: 14px;*/
+
+
+/*border: 0.5px solid; height: 18px;*/
+
+
+/*}.content .contentright .dang_ki #gioitinh{*/
+
+
+/*margin-left: 21px;*/
+
+
+/*border: 0.5px solid; height: 18px;*/
+
+
+/*}.content .contentright .dang_ki #email{*/
+
+
+/*margin-left: 43px; height: 18px;*/
+
+
+/*border: 0.5px solid;*/
+
+
+/*}*/
+
+
+/*.content .contentright .dang_ki #diachi{*/
+
+
+/*margin-left: 33px;*/
+
+
+/*border: 0.5px solid; height: 18px;*/
+
+
+/*}*/
+
+
+/*.content .contentright .dang_ki #sodt{*/
+
+
+/*border-radius: 1px 0.5px; height: 18px;*/
+
+
+/*border: 0.5px solid;*/
+
+
+/*}*/
+
+.content .contentright .text-center .Nut_DKI {
+    margin: 0 10%;
+    height: 43px
+}
+
+.content .contentright .text-center .Nut_reset {
+    margin: 0 10%;
+    height: 43px
+}
+
+.content .contentright #form-login .But_ton1 {
+    color: wheat;
+    font-size: 18px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 15px;
+    width: 102%;
+    height: 42px;
+    background: #229541;
+}
+
+.content .contentright #form-login .But_ton2 {
+    color: wheat;
+    font-size: 18px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 30px;
+    width: 102%;
+    height: 42px;
+    background: #229541;
+}
+
+.content .contentright #form-login .But_ton1 :hover {
+    hover-color: #795548;
+}
+
+.content .contentright #form-login .But_ton2 :hover {
+    hover-color: green;
+}
